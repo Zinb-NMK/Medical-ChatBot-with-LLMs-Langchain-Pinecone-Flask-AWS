@@ -6,6 +6,34 @@ The chatbot allows users to ask **medical-related questions**, retrieves relevan
 
 ---
 
+## 📘 Documentation Status
+
+> ⚠️ **Note:** This README is currently undergoing **minor updates** to improve clarity, structure, and accuracy.
+
+✔️ **Project Functionality:** Complete & Stable  
+🛠️ **Documentation:** Small refinements in progress  
+🚀 **Application Status:** Fully operational  
+
+---
+
+### 🔍 Purpose of Update
+• Improve readability and formatting  
+• Reflect recent enhancements  
+• Align with industry documentation standards  
+
+---
+
+### ⏳ Current Status Summary
+🔹 Codebase: **Finalized**  
+🔹 Backend & Frontend: **Working as expected**  
+🔹 Documentation: **Being polished**  
+
+---
+
+🙏 Thank you for your patience.
+
+----
+
 ## 🚀 Features
 
 - Medical Question Answering using **RAG architecture**
