@@ -87,28 +87,35 @@ The chatbot allows users to ask **medical-related questions**, retrieves relevan
 ### ⚙️ How to Run the Project
 
 **STEP 01: Clone the Repository**
+
 git clone https://github.com/Zinb-NMK/Medical-ChatBot-with-LLMs-Langchain-Pinecone-Flask-AWS.git  
 cd Medical-ChatBot-with-LLMs-Langchain-Pinecone-Flask-AWS
 
 **STEP 02: Create and Activate Conda Environment**
+
 conda create -n medibot python=3.10 -y  
 conda activate medibot
 
 **STEP 03: Install Requirements**
+
 pip install -r requirements.txt
 
 **STEP 04: Setup Environment Variables**
+
 Create a `.env` file in the root directory:
 PINECONE_API_KEY=your_pinecone_api_key_here
 
 **STEP 05: Store Embeddings in Pinecone**
+
 python store_index.py  
 (Loads medical documents → Creates embeddings → Stores in Pinecone)
 
 **STEP 06: Run the Flask Application**
+
 python app.py
 
 **STEP 07: Open the Application**
+
 http://127.0.0.1:5000
 
 ---
