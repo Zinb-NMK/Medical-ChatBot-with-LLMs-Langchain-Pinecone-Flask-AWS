@@ -1,0 +1,15 @@
+# Environment variables
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# HuggingFace cache (optional)
+hf_cache/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db

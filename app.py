@@ -62,7 +62,7 @@ def init_rag():
 
     hf_pipeline = pipeline(
         task="text2text-generation",
-        model="google/flan-t5-small",
+        model="google/flan-t5-base",
         max_new_tokens=256,
         temperature=0.0,
         repetition_penalty=1.2,
